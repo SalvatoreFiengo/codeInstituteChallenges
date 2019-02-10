@@ -1,17 +1,11 @@
 .element {
-    position: relative;
 	background-color: #0997d3;
 	width: 200px;
 	height: 200px;
-	top: 0;
-	left: 0;
-	transition-property: left;
+	transition-property: transform;
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
 }
 .element:hover {
-    left: 100%;
+    transform: translateX(100%)
 }
-
-
-
